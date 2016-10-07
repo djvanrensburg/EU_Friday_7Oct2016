@@ -7,7 +7,7 @@
 						showSeparators="All" change="onChangeFileUpload" filenameLengthExceed="onFilenameLengthExceed" fileSizeExceed="onFileSizeExceed"
 						fileDeleted="onFileDeleted" typeMissmatch="onTypeMissmatch" uploadComplete="onUploadComplete" beforeUploadStarts="onBeforeUploadStarts"></UploadCollection>
 						
-						<Button id="file_list" press="doFileUpload" text="Upload"></Button>
+						<Button id="file_list2" press="doFileUpload" text="Upload"></Button>
 				</content>
 			</Page>
 		</pages>
