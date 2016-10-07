@@ -1,0 +1,28 @@
+{
+  "run": [
+    {
+      "filePath": "/webapp/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "SBX",
+          "destinations": "SBX"
+        }
+      ],
+      "urlParametersNotNeeded": false,
+      "_metadata": {
+        "id": 3758327,
+        "runnerId": "webapprunner",
+        "displayName": "Run index.html",
+        "lastRunTimeStamp": 1475745970557
+      }
+    }
+  ]
+}

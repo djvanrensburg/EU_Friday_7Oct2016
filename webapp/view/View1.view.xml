@@ -1,0 +1,15 @@
+<mvc:View controllerName="z.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<UploadCollection id="file_list" maximumFilenameLength="55" multiple="false" sameFilenameAllowed="false" instantUpload="false"
+						showSeparators="All" change="onChangeFileUpload" filenameLengthExceed="onFilenameLengthExceed" fileSizeExceed="onFileSizeExceed"
+						fileDeleted="onFileDeleted" typeMissmatch="onTypeMissmatch" uploadComplete="onUploadComplete" beforeUploadStarts="onBeforeUploadStarts"></UploadCollection>
+						
+						<Button id="uploadBut" press="doFileUpload" text="Upload"></Button>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
