@@ -11,7 +11,7 @@ sap.ui.define([
 			this.oView.setModel(this.oModel);
 			
 			var oUploadCollection = this.getView().byId("file_list");
-			oUploadCollection.setUploadUrl(this.oModel.sServiceUrl + "/PhotoSet");
+			oUploadCollection.setUploadUrl(this.oModel.sServiceUrl + "/Photo");
 		},
 
 		/********************* 

@@ -18,17 +18,7 @@
         "entryPath": "/test-resources"
       },
       "description": "SAPUI5 Test Resources"
-    },
-    {
-		"path": "/sap/opu/odata",
-		"target": {
-			"type": "destination",
-			"name": "SBX",
-			"entryPath": "/sap/opu/odata"
-		},
-		"description": "Sandbox for training"
-	}
+    }
   ],
-  "sendWelcomeFileRedirect": true,
-  "headerWhiteList": ["slug"]
+  "sendWelcomeFileRedirect": true
 }
